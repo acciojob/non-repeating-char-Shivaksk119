@@ -3,10 +3,10 @@ function firstNonRepeatedChar(str) {
 	let charCount = {};
 	for(let i=0;i<str.length;i++) {
 		if(charCount[str.charAt(i)]==undefined) {
-			charCount[str.charAt(i)]] = 1;
+			charCount[str.charAt(i)] = 1;
 		}
 		else {
-			charCount[str.charAt(i)]] += 1;
+			charCount[str.charAt(i)] += 1;
 		}
 	}
 
