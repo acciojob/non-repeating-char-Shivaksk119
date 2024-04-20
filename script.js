@@ -11,7 +11,7 @@ function firstNonRepeatedChar(str) {
 	}
 
 	for (c in charCount) {
-		if(c==1) {
+		if(charCount[c]==1) {
 			return c;
 		}
 	}
